@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+:root {
+  --white: #fafafa;
+  --black: #000000;
+  --transparentBlack: #212121cc;
+  --transparentWhite: #ffffff26;
+}
+body {
+  background-color: black;
+  font-family: "League Spartan", sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 72rem;
+  background-image: url(./img/home_a_hero_d.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+nav .logoCont {
+  width: 9.5rem;
+  height: 1.2rem;
+}
+
+.logoCont img {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.5rem;
+  height: 27rem;
+  gap: 4rem;
+}
+.content h1 {
+  font-size: 3.2rem;
+  color: var(--white);
+  width: 31.477rem;
+  height: 7.8rem;
+  /* text-align: center; */
+}
+
+.content p {
+  font-size: 1.6rem;
+  color: var(--white);
+}
+.content button {
+  font-size: 1.2rem;
+  color: var(--white);
+  width: 13.409rem;
+  height: 3.688rem;
+  background: none;
+  border: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form p {
+  font-size: 1.6rem;
+  color: var(--white);
+}
+form input {
+  width: 33.5rem;
+  height: 5rem;
+  color: var(--white);
+}
+form button {
+  width: 33.5rem;
+  height: 5rem;
+  color: var(--black);
+}
