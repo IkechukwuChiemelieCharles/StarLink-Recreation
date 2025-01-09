@@ -21,9 +21,11 @@ header {
   width: 100vw;
   height: 72rem;
   background-image: url(./img/home_a_hero_d.webp);
-  background-position: center;
+  background-position: -95rem;
   background-repeat: no-repeat;
   background-size: cover;
+  gap: 8rem;
+  border: 1px solid red;
 }
 nav {
   width: 100%;
@@ -32,6 +34,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 nav .logoCont {
   width: 9.5rem;
@@ -41,6 +46,12 @@ nav .logoCont {
 .logoCont img {
   width: 100%;
   height: 100%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .content {
@@ -78,6 +89,7 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 form p {
   font-size: 1.6rem;
@@ -87,9 +99,141 @@ form input {
   width: 33.5rem;
   height: 5rem;
   color: var(--white);
+  background: none;
+  backdrop-filter: blur(5px);
+  color: var(--white);
+  padding-left: 2rem;
+  border: 1px solid var(--white);
+  border-radius: 0.5rem;
+}
+form input::placeholder {
+  color: var(--white);
 }
 form button {
   width: 33.5rem;
   height: 5rem;
   color: var(--black);
+  border: navajowhite;
+  font-weight: bolder;
+  border-radius: 0.5rem;
+}
+form a {
+  color: var(--white);
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.container {
+  background-image: url(./img/home_illustriation1_m.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 94.4rem;
+  padding-bottom: 10rem;
+}
+.sec1 .innersec1 {
+  width: 35.5rem;
+  height: 88.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.innersec1 .div1 {
+  width: 32rem;
+  height: 28rem;
+  color: var(--white);
+}
+
+.innersec1 .res {
+  background-image: url(./img/home_a_residential_d.webp);
+  background-position: top;
+  background-size: cover;
+  padding: 2rem;
+}
+.innersec1 .roam {
+  background-image: url(./img/home_a_roam_m.jpg);
+  background-position: top;
+  background-size: cover;
+  padding: 2rem;
+}
+.innersec1 .boats {
+  background-image: url(./img/home_boats_d.jpg);
+  background-position: 0 -10rem;
+  background-size: cover;
+  padding: 2rem;
+  background-repeat: no-repeat;
+}
+.innersec1 .div1 h2 {
+  font-size: 2.5rem;
+}
+
+.innersec1 .div1 .text p {
+  font-size: 1.6rem;
+}
+.innersec1 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 9.6rem;
+}
+
+.innersec1 h1 {
+  font-size: 2.8rem;
+  color: var(--white);
+  width: 100%;
+  text-align: center;
+}
+.innersec1 > p {
+  font-size: 1.4rem;
+  color: var(--white);
+  text-align: center;
+}
+.innersec1 a {
+  font-size: 1.2rem;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.sec2 {
+  height: 67.3rem;
+  width: 100%;
+  background-image: url(./img/home_a_feature1_d.webp);
+  /* background-position: -30rem; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.innersec2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33.5rem;
+  color: var(--white);
+  gap: 2rem;
+  padding: 10rem 0;
+  /* height: 6.2rem; */
+}
+.innersec2 h1 {
+  font-size: 2.5rem;
+}
+.innersec2 p {
+  font-size: 1.4rem;
 }
