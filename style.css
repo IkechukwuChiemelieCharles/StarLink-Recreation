@@ -21,7 +21,8 @@ header {
   width: 100vw;
   height: 72rem;
   background-image: url(./img/home_a_hero_d.webp);
-  background-position: -95rem;
+  /* background-position: -95rem; */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   gap: 8rem;
@@ -33,7 +34,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -42,9 +43,14 @@ nav .logoCont {
   height: 1.2rem;
 }
 
-.logoCont img {
+.logoCont .logo {
   width: 100%;
   height: 100%;
+}
+nav .ham {
+  width: 2.5rem;
+  color: var(--white);
+  cursor: pointer;
 }
 header {
   display: flex;
@@ -89,27 +95,49 @@ header {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  width: 80%;
 }
 .form1 p {
   font-size: 1.6rem;
   color: var(--white);
 }
+.form1 .inp {
+  /* width: 33.5rem; */
+  width: 100%;
+  border: 1px solid var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--transparentWhite);
+  border-radius: 0.5rem;
+}
+
+.form1 .inp .imgcont {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
 .form1 input {
-  width: 33.5rem;
+  width: 90%;
   height: 5rem;
   color: var(--white);
   background: none;
   backdrop-filter: blur(5px);
   color: var(--white);
   padding-left: 2rem;
-  border: 1px solid var(--white);
+  border: none;
   border-radius: 0.5rem;
 }
 .form1 input::placeholder {
   color: var(--white);
 }
 .form1 button {
-  width: 33.5rem;
+  /* width: 33.5rem; */
+  width: 100%;
   height: 5rem;
   color: var(--black);
   border: navajowhite;
@@ -138,10 +166,11 @@ header {
 
   width: 100vw;
   height: 94.4rem;
-  padding-bottom: 10rem;
+  padding-bottom: 1rem;
 }
 .sec1 .innersec1 {
-  width: 35.5rem;
+  /* width: 35.5rem; */
+  width: 100%;
   height: 88.8rem;
   display: flex;
   flex-direction: column;
@@ -215,19 +244,20 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
+  padding: 5rem;
 }
 
 .innersec2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 33.5rem;
+  align-items: start;
+  /* width: 33.5rem; */
+  width: 100%;
   color: var(--white);
   gap: 2rem;
-  padding: 10rem 0;
   /* height: 6.2rem; */
 }
 .innersec2 h1 {
@@ -250,11 +280,12 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 90%;
 }
 
 .innersec3 .vidCont {
-  width: 33.5rem;
-  height: 34.2rem;
+  width: 80%;
+  height: 44.2rem;
   position: relative;
 }
 .innersec3 .vidCont .vid {
@@ -273,7 +304,8 @@ header {
   justify-content: center;
   align-items: start;
   flex-direction: column;
-  width: 33.5rem;
+  width: 80%;
+
   height: 35.1rem;
   color: var(--white);
   gap: 4rem;
@@ -345,22 +377,25 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 62.3rem;
+  /* height: 62.3rem; */
   flex-direction: column;
+  padding: 4rem 0;
 }
 
 .innersec4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 33.5rem;
+  /* width: 33.5rem; */
+  width: 80%;
+  height: 100%;
   flex-direction: column;
   gap: 4rem;
 }
 
 .sec4 .imgCont {
   width: 100%;
-  height: 33.5rem;
+  height: 100%;
 }
 
 .sec4 .imgCont img {
@@ -392,8 +427,9 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
+  padding: 5rem;
 }
 .innersec5 {
   display: flex;
@@ -403,7 +439,6 @@ header {
   width: 33.5rem;
   color: var(--white);
   gap: 2rem;
-  padding: 10rem 0;
   /* height: 6.2rem; */
 }
 
@@ -424,20 +459,21 @@ header {
 
 .sec6 {
   height: 67.3rem;
-  width: 100%;
+  width: 100vw;
 
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   color: var(--white);
 }
 
 .innersec6 {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   flex-direction: column;
-  width: 33.5rem;
+  /* width: 33.5rem; */
+  width: 90%;
 }
 
 .innersec6 .top {
@@ -471,7 +507,7 @@ header {
 }
 
 .form2 .inp {
-  width: 33.5rem;
+  width: 100%;
   border: 1px solid var(--white);
   display: flex;
   justify-content: center;
@@ -481,7 +517,7 @@ header {
 }
 
 .form2 input {
-  width: 30.5rem;
+  width: 90%;
   height: 5rem;
   color: var(--white);
   border: none;
@@ -493,7 +529,7 @@ header {
   border-radius: 0.5rem;
 }
 .form2 button {
-  width: 33.5rem;
+  width: 100%;
   height: 5rem;
   font-size: 1.2rem;
 }
@@ -514,4 +550,101 @@ header {
 .form2 a img {
   width: 1.4rem;
   height: 1.4rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  width: 100vw;
+  height: 45.05rem;
+}
+
+.innerfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  width: 90%;
+  /* width: 100%; */
+}
+
+.innerfooter .x {
+  width: 1.4rem;
+}
+
+.innerfooter .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white);
+  height: 14.45rem;
+  width: 100%;
+  gap: 2rem;
+}
+
+.innerfooter .rightTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+.innerfooter form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+.innerfooter .rightTop a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--white);
+  gap: 0.5rem;
+}
+.innerfooter .rightTop .arr {
+  width: 1.2rem;
+}
+
+.innerfooter p {
+  font-size: 1.2rem;
+  color: var(--white);
+}
+.innerfooter .rightTop input {
+  width: 80%;
+  height: 3.95rem;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--transparentWhite);
+  color: var(--white);
+}
+
+.innerfooter .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.innerfooter ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.innerfooter ul li,
+.innerfooter ul a {
+  color: var(--white);
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.2rem;
 }

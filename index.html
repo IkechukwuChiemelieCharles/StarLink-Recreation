@@ -21,9 +21,11 @@
   <body>
     <header>
       <nav>
-        <div class="logoCont"><img src="./img/logo_white.png" alt="" /></div>
+        <div class="logoCont">
+          <img class="logo" src="./img/logo_white.png" alt="" />
+        </div>
 
-        <i class="fa fa-bars"></i>
+        <img class="ham" src="./img/ci--hamburger-lg.png" alt="" />
       </nav>
 
       <div class="content">
@@ -34,7 +36,14 @@
 
       <form class="form1" action="">
         <p></p>
-        <input type="text" placeholder="TYPE AND SELECT" />
+
+        <div class="inp">
+          <input type="text" placeholder="TYPE AND SELECT" />
+          <div class="imgcont">
+            <img src="./img/Target.svg" alt="" />
+          </div>
+        </div>
+        <!-- <input type="text" placeholder="TYPE AND SELECT" /> -->
         <button>ORDER NOW</button>
 
         <a href=""
@@ -191,11 +200,43 @@
         </div>
       </section>
     </div>
-
-    <!-- <footer>
+    <footer>
       <div class="innerfooter">
-        <div class="top">e</div>
+        <div class="left">
+          <ul>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Satellite Operators </a></li>
+            <li><a href="#">Authorized Reseller</a></li>
+            <li><a href="#">Privacy & Legal</a></li>
+            <li><a href="#">Privacy Preferences</a></li>
+          </ul>
+
+          <img class="x" src="./img/x-logo.svg" alt="" />
+
+          <p>Starlink © 2025</p>
+
+          <p>Starlink is a division of SpaceX. Visit us at spacex.com</p>
+        </div>
+
+        <div class="right">
+          <div class="rightTop">
+            <p>intersted in staying up to date with Starlink?</p>
+            <form action="">
+              <input type="email" placeholder="Email" />
+              <a href="#"
+                >SIGN UP
+                <img
+                  class="arr"
+                  src="./img/arrow_forward_ios_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                  alt=""
+              /></a>
+            </form>
+          </div>
+          <div class="rightBottom">
+            <p>By clicking Sign Up, you agree to our Privacy Policy</p>
+          </div>
+        </div>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
