@@ -1,0 +1,125 @@
+header {
+  width: 100vw;
+  height: 72rem;
+  background-image: url(./img/home_a_hero_d.webp);
+  /* background-position: -95rem; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 8rem;
+  padding-bottom: 16rem;
+}
+.content {
+  margin-top: 20rem;
+}
+.content h1 {
+  font-size: 7.2rem;
+  width: 58.6rem;
+  height: 35.2rem;
+  text-align: center;
+}
+.content p {
+  font-size: 2.5rem;
+}
+
+/* header {
+  padding: 15rem 0;
+} */
+.content {
+  gap: 2rem;
+}
+
+.form1 {
+  margin-top: 5rem;
+}
+
+.form1 a {
+  margin-top: 2rem;
+}
+.sec1 {
+  padding-bottom: 19rem;
+}
+.innersec1 .div1 {
+  width: 32rem;
+  height: 38rem;
+  color: var(--white);
+}
+
+.innersec1 .div1 h2 {
+  font-size: 4rem;
+}
+
+.innersec1 .div1 .text p {
+  font-size: 2.5rem;
+}
+.innersec1 h1 {
+  font-size: 5.1rem;
+}
+.innersec1 > p {
+  font-size: 1.6rem;
+}
+.innersec1 a {
+  font-size: 1.2rem;
+}
+
+.innersec2 h1 {
+  font-size: 4rem;
+}
+.innersec2 p {
+  font-size: 1.6rem;
+}
+
+.sec3 {
+  width: 100vw;
+  height: 110.1rem;
+  /* margin-top: 5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innersec3 .vidCont {
+  height: 59.6rem;
+}
+.sec3 .innersec3 {
+  /* margin-top: 5rem; */
+}
+.texts .top h2 {
+  font-size: 4rem;
+}
+.texts .top p {
+  font-size: 1.6rem;
+}
+.texts .mid h2 {
+  font-size: 2.8rem;
+}
+.texts .bottom p {
+  font-size: 1.6rem;
+}
+
+.sec4 {
+  height: 89.1rem;
+}
+.sec4 h2 {
+  font-size: 4rem;
+}
+.sec4 p {
+  font-size: 1.6rem;
+}
+.sec5 {
+  height: 69.4rem;
+}
+
+.innersec5 h1 {
+  font-size: 4rem;
+}
+.innersec5 p {
+  font-size: 1.6rem;
+}
+
+.innersec6 h1 {
+  font-size: 5.1rem;
+}
+.innersec6 p {
+  font-size: 2.5rem;
+}

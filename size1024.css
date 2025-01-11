@@ -1,0 +1,160 @@
+nav .logoCont {
+  width: 14.2rem;
+  height: 1.8rem;
+}
+
+.content h1 {
+  font-size: 7.2rem;
+  width: 70.822rem;
+  height: 17.6rem;
+}
+.content {
+  gap: 8rem;
+}
+.form1 {
+  width: 60rem;
+  margin-bottom: 10rem;
+}
+
+.form1 .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 60rem;
+  gap: 2rem;
+}
+.form1 .inp {
+  /* width: 33.5rem; */
+  width: 40.2rem;
+  border: 1px solid var(--white);
+}
+.form1 button {
+  /* width: 33.5rem; */
+  width: 18rem;
+}
+.innersec1 .divs {
+  flex-direction: row;
+  gap: 2rem;
+}
+.innersec1 .div1 {
+  width: 31.266rem;
+  height: 70rem !important;
+  color: var(--white);
+}
+
+.sec2 {
+  height: 85.4rem;
+
+  padding: 10rem 5rem;
+}
+.innersec2 {
+  width: 51rem;
+}
+
+.sec3 .innersec3 {
+  align-items: start;
+  flex-direction: row;
+  gap: 4rem;
+}
+.innersec3 .vidCont {
+  height: 49.4rem;
+}
+.sec4 {
+  height: 57.4rem;
+}
+.innersec4 {
+  align-items: start;
+  /* width: 33.5rem; */
+  width: 90%;
+  height: 100%;
+  flex-direction: row-reverse;
+  gap: 2rem;
+}
+.sec4 .writeup {
+  justify-content: start;
+
+  height: 49.35rem;
+  width: 50%;
+}
+.sec4 .imgCont {
+  width: 50%;
+  height: 49.35rem;
+}
+
+.sec5 {
+  height: 67.3rem;
+  width: 100%;
+  background-image: url(./img/home_feature3_d.webp);
+  /* background-position: -30rem; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding: 5rem;
+}
+
+.innersec6 .form2 {
+  width: 60rem;
+  margin-bottom: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.form2 .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 60rem;
+  gap: 2rem;
+}
+.form2 .inp {
+  /* width: 33.5rem; */
+  width: 40.2rem;
+  border: 1px solid var(--white);
+}
+.form2 button {
+  /* width: 33.5rem; */
+  width: 18rem;
+}
+.form2 input {
+  width: 40.2rem;
+}
+.form2 button {
+  width: 18rem;
+}
+.innerfooter {
+  flex-direction: row;
+  /* width: 100%; */
+}
+
+.innerfooter .right {
+  height: 7.6rem;
+  width: 49.922rem;
+}
+
+.innerfooter form {
+  width: 27.808rem;
+}
+.innerfooter .rightTop {
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+}
+.innerfooter .rightTop input {
+  width: 18rem;
+}
+.innerfooter .rightBottom {
+  align-self: flex-end;
+}
+.innerfooter ul {
+  flex-direction: row;
+
+  gap: 2rem;
+}
+.copyright {
+  flex-direction: row;
+}
