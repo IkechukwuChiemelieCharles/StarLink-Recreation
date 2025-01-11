@@ -1,6 +1,6 @@
 header {
   width: 100vw;
-  height: 72rem;
+  height: 102rem;
   background-image: url(./img/home_a_hero_d.webp);
   /* background-position: -95rem; */
   background-position: center;
@@ -10,7 +10,8 @@ header {
   padding-bottom: 16rem;
 }
 .content {
-  margin-top: 20rem;
+  /* margin-top: 28rem; */
+  height: 31rem;
 }
 .content h1 {
   font-size: 7.2rem;
