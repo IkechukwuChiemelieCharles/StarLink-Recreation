@@ -78,13 +78,14 @@ nav .logoCont {
 .sec2 {
   height: 85.4rem;
 
-  padding: 10rem 5rem;
+  /* padding: 10rem 5rem; */
+  padding: 0 0;
 }
 .sec2 {
   justify-content: center;
 }
 .innersec2 {
-  width: 51rem;
+  width: 90%;
 }
 .innersec2 h1 {
   font-size: 4rem;
@@ -100,9 +101,9 @@ nav .logoCont {
 }
 
 .sec3 .innersec3 {
-  align-items: start;
+  align-items: center;
   flex-direction: row;
-  gap: 0;
+  gap: 2rem;
 }
 .innersec3 .vidCont {
   width: 40%;
