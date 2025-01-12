@@ -15,7 +15,7 @@ html {
 body {
   background-color: black;
   font-family: "League Spartan", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .mobileMenu {
   background-color: var(--black);
