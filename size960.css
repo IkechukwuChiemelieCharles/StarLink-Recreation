@@ -21,6 +21,9 @@ header {
   justify-content: space-between;
 }
 
+nav {
+  padding: 6rem;
+}
 nav .logoCont {
   width: 14.2rem;
   height: 1.8rem;

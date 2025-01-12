@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./size640.css" media="(min-width:640px)" />
 
     <link rel="stylesheet" href="./size960.css" media="(min-width:960px)" />
+    <link rel="stylesheet" href="./size1280.css" media="(min-width:1280px)" />
     <link rel="stylesheet" href="./size1480.css" media="(min-width:1480px)" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,10 +25,57 @@
   </head>
   <body>
     <header>
+      <div class="mobileMenu">
+        <div class="innerMobile">
+          <img class="xbtn" src="./img/ot_close.svg" alt="" />
+          <div class="top">
+            <div class="paras">
+              <p class="pers"><a href="">PERSONAL</a></p>
+              <p class="midPara"></p>
+              <p><a href="">BUSINESS</a></p>
+            </div>
+            <ul>
+              <li><a href="#">RESIDENTIAL</a></li>
+              <li><a href="#">ROAM</a></li>
+              <li><a href="#">BOATS</a></li>
+            </ul>
+          </div>
+          <div class="bottom">
+            <ul>
+              <li>
+                <a href="#">NG <img src="./img/Language_Globe.svg" alt="" /></a>
+              </li>
+              <li><a href="#">SIGN IN</a></li>
+              <li><a href="#">HELP CENTER</a></li>
+              <li><a href="#">AVAILABILITY MAP</a></li>
+              <li><a href="#">SPECIFICATIONS</a></li>
+              <li><a href="#">SERVICE PLANS</a></li>
+              <li><a href="#">VIDEO GUIDES</a></li>
+              <li><a href="#">TECHNOLOGY</a></li>
+              <li><a href="#">COMMUNITY GATEWAY</a></li>
+              <li><a href="#">UPDATES</a></li>
+              <li><a href="#">CUSTOMER STORIES</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div class="innerHeader">
         <nav>
           <div class="logoCont">
             <img class="logo" src="./img/logo_white.png" alt="" />
+          </div>
+
+          <div class="navlinks">
+            <ul>
+              <li><a href="#">RESIDENTIAL</a></li>
+              <li><a href="#">ROAM</a></li>
+              <li><a href="#">BOATS</a></li>
+            </ul>
+            <div class="paras">
+              <p class="pers"><a href="">PERSONAL</a></p>
+              <p class="midPara"></p>
+              <p><a href="">BUSINESS</a></p>
+            </div>
           </div>
 
           <img class="ham" src="./img/ci--hamburger-lg.png" alt="" />
@@ -37,9 +85,16 @@
           <h1>HIGH-SPEED INTERNET AROUND THE WORLD</h1>
           <p>Connect at home or on the go.</p>
 
-          <a href=" https://api.starlink.com/public-files/videos/base/Starlink_What_Is_Starlink.mp4"> WATCH NOW <img src="./img/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt=""></i></a>
+          <a
+            href=" https://api.starlink.com/public-files/videos/base/Starlink_What_Is_Starlink.mp4"
+          >
+            WATCH NOW
+            <img
+              src="./img/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+              alt=""
+          /></a>
         </div>
-       
+
         <form class="form1" action="">
           <h4>Service Address</h4>
 
@@ -113,12 +168,14 @@
           <div class="vidCont">
             <!-- <img class="vid" src="./img/home_b_install_d.jpg" alt="" /> -->
 
-            <a href="https://api.starlink.com/public-files/videos/base/Starlink_What_Is_Starlink_Mobile.mp4">  <img 
-              class="play"
-              src="./img/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
-              alt=""
+            <a
+              href="https://api.starlink.com/public-files/videos/base/Starlink_What_Is_Starlink_Mobile.mp4"
+            >
+              <img
+                class="play"
+                src="./img/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                alt=""
             /></a>
-          
           </div>
           <div class="texts">
             <div class="top">
@@ -262,5 +319,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./data.js"></script>
   </body>
 </html>
