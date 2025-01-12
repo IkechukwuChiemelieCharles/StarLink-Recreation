@@ -58,6 +58,7 @@ header {
 
 .innersec1 .div1 h2 {
   font-size: 4rem;
+  text-wrap: wrap !important;
 }
 
 .innersec1 .div1 .text p {

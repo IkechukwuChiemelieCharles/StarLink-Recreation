@@ -63,33 +63,61 @@ nav .logoCont {
   gap: 2rem;
 }
 .innersec1 .div1 {
-  width: 31.266rem;
+  /* width: 31.266rem; */
+  width: 30%;
   height: 70rem !important;
   color: var(--white);
 }
-
+.innersec1 .div1:hover {
+  width: 31%;
+}
+.innersec1 .div1 h2 {
+  text-wrap: wrap;
+  max-width: 100%;
+}
 .sec2 {
   height: 85.4rem;
 
   padding: 10rem 5rem;
 }
+.sec2 {
+  justify-content: center;
+}
 .innersec2 {
   width: 51rem;
+}
+.innersec2 h1 {
+  font-size: 4rem;
+  width: 40%;
+}
+.innersec2 p {
+  font-size: 1.6rem;
+  width: 40%;
+}
+
+.sec3 {
+  height: 94rem;
 }
 
 .sec3 .innersec3 {
   align-items: start;
   flex-direction: row;
-  gap: 4rem;
+  gap: 0;
 }
 .innersec3 .vidCont {
+  width: 40%;
   height: 49.4rem;
 }
+
+.innersec3 .texts {
+  width: 40%;
+}
+
 .sec4 {
   height: 57.4rem;
 }
 .innersec4 {
-  align-items: start;
+  align-items: center;
   /* width: 33.5rem; */
   width: 90%;
   height: 100%;
@@ -97,7 +125,7 @@ nav .logoCont {
   gap: 2rem;
 }
 .sec4 .writeup {
-  justify-content: start;
+  justify-content: center;
 
   height: 49.35rem;
   width: 50%;
@@ -108,7 +136,7 @@ nav .logoCont {
 }
 
 .sec5 {
-  height: 67.3rem;
+  height: 63.6rem;
   width: 100%;
   background-image: url(./img/home_feature3_d.webp);
   /* background-position: -30rem; */
@@ -116,9 +144,18 @@ nav .logoCont {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: start;
-  padding: 5rem;
+  padding: 10rem;
+}
+.innersec5 h1 {
+  font-size: 4rem;
+
+  width: 40%;
+}
+.innersec5 p {
+  font-size: 1.6rem;
+  width: 40%;
 }
 
 .innersec6 .form2 {
@@ -151,8 +188,14 @@ nav .logoCont {
 .form2 button {
   width: 18rem;
 }
+
+footer {
+  height: 10.25rem;
+  padding: 0 18.6rem;
+}
 .innerfooter {
   flex-direction: row;
+  justify-content: space-between;
   /* width: 100%; */
 }
 

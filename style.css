@@ -92,13 +92,22 @@ nav .ham {
   font-size: 1.6rem;
   color: var(--white);
 }
-.content button {
+.content a {
   font-size: 1.2rem;
   color: var(--white);
   width: 13.409rem;
   height: 3.688rem;
   background: none;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+}
+.content img {
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .form1 {
@@ -666,7 +675,9 @@ footer {
 .innerfooter .rightTop .arr {
   width: 1.2rem;
 }
-
+.innerfooter .rightTop p {
+  text-align: end;
+}
 .innerfooter p {
   font-size: 1.2rem;
   color: var(--white);

@@ -1,0 +1,43 @@
+.innersec1 .div1 {
+  /* width: 31.266rem; */
+  width: 46.3rem;
+}
+.sec4 {
+  height: 94rem;
+}
+
+.innersec4 {
+  align-items: center;
+
+  /* width: 33.5rem; */
+  width: 90%;
+  height: 100%;
+  flex-direction: row-reverse;
+  gap: 2rem;
+}
+.sec4 .writeup {
+  justify-content: center;
+
+  height: 80%;
+  width: 50%;
+}
+footer {
+  padding: 0 18.6rem;
+}
+
+/* .sec1,
+.sec2,
+.sec3,
+.sec4,
+.sec5,
+.sec6 {
+  padding: 0 18.6rem; */
+/* } */
+.innersec1,
+.innersec2,
+.innersec3,
+.innersec4,
+.innersec5,
+.innersec6 {
+  width: 142rem;
+}
