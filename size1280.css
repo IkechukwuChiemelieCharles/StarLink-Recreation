@@ -55,3 +55,9 @@
   border-bottom: var(--white) 2px solid;
   padding-bottom: 0.5rem;
 }
+.sec2 {
+  height: 85.4rem;
+
+  /* padding: 10rem 5rem; */
+  padding: 8rem 0;
+}
