@@ -16,11 +16,15 @@ body {
   background-color: black;
   font-family: "League Spartan", sans-serif;
   overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .mobileMenu {
   background-color: var(--black);
-  width: 100vw;
+  width: 99vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -143,7 +147,7 @@ body {
 }
 
 header {
-  width: 100vw;
+  width: 99vw;
   height: 72rem;
   background-image: url(./img/home_a_hero_d.webp);
   /* background-position: -95rem; */
@@ -157,6 +161,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .innerHeader {
@@ -208,7 +213,7 @@ nav .ham {
   gap: 4rem;
 }
 .content h1 {
-  font-size: 3.2rem;
+  font-size: 3rem;
   color: var(--white);
   width: 31.477rem;
   height: 7.8rem;
@@ -318,6 +323,10 @@ nav .ham {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .sec1 {
@@ -325,7 +334,7 @@ nav .ham {
   justify-content: center;
   align-items: center;
 
-  width: 100vw;
+  width: 99vw;
   /* height: 94.4rem; */
   padding: 5rem;
 }
@@ -447,7 +456,7 @@ nav .ham {
 }
 
 .sec3 {
-  width: 100vw;
+  width: 99vw;
   height: 81.3rem;
   margin-top: 5rem;
   display: flex;
@@ -554,7 +563,7 @@ nav .ham {
 }
 
 .sec4 {
-  width: 100vw;
+  width: 99vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -640,7 +649,7 @@ nav .ham {
 
 .sec6 {
   height: 67.3rem;
-  width: 100vw;
+  width: 99vw;
 
   display: flex;
   justify-content: center;
@@ -747,7 +756,7 @@ footer {
   justify-content: center;
   align-items: center;
   /* flex-direction: column; */
-  width: 100vw;
+  width: 99vw;
   height: 45.05rem;
 }
 
